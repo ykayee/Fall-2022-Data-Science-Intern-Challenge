@@ -1,7 +1,7 @@
 # Fall-2022-Data-Science-Intern-Challenge
 
 Question 1:  
-a. Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.   
+**a. Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.   
 
 Even though the sneakers is selling in a affordable price, the AOV is relatively high. The reason why it happens is due to the outliers in the dataset. I created a new column “cost_per_item” to calculate the selling price for one pair of sneakers. After analysing the data, it is not a normal distribution. I observed that the orders from user_id 607 and shop_id 78 are the outliers.   
 
