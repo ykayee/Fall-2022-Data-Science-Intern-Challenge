@@ -23,9 +23,10 @@ c. What is its value?
 
 ## **Question 2:**
 **a. How many orders were shipped by Speedy Express in total?**  
-	54.0  
 ```
-SQL query:
+54.0
+```
+```
 SELECT COUNT(o.OrderID) 
 FROM Orders o JOIN Shippers s
 ON o.ShipperID = s.ShipperID
