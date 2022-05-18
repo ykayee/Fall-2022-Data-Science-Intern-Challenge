@@ -20,3 +20,16 @@ b. What metric would you report for this dataset?
 c. What is its value?  
 
 	284.0
+
+## **Question 2:**
+**a. How many orders were shipped by Speedy Express in total?**
+	54.0
+```
+SQL query:
+SELECT COUNT(o.OrderID) 
+FROM Orders o JOIN Shippers s
+ON o.ShipperID = s.ShipperID
+WHERE s.ShipperName ='Speedy Express'
+```
+
+
