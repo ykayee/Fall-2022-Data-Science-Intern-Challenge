@@ -22,8 +22,8 @@ c. What is its value?
 	284.0
 
 ## **Question 2:**
-**a. How many orders were shipped by Speedy Express in total?**
-	54.0
+**a. How many orders were shipped by Speedy Express in total?**  
+	54.0  
 ```
 SQL query:
 SELECT COUNT(o.OrderID) 
